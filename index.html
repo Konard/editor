@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Editor</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="assets/main.css"/>
+		<link rel="stylesheet" class="style" href="assets/t-default.css"/>
+	</head>
+	<body>
+		<div class="editor">
+			<textarea onkeyup="update()"></textarea>
+		</div>
+		<div class="sidebar">
+			<a href="">Text Editor</a>
+			<p>This text editor uses local storage to autosave your work.</p>
+			<hr>
+			<a class="settings">Change Theme</a>
+			<div class="panel">
+				<a class="theme t-default">Default</a>
+				<a class="theme t-code">Code</a>
+				<a class="theme t-writer">Writer</a>
+			</div>
+			<a href="http://github.com/stingclaw/editor">View on Github</a>
+		</div>
+		<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="assets/main.js"></script>
+	</body>
+</html>
