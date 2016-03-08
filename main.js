@@ -16,11 +16,11 @@ $('.settings').click(function() {
 	$('.panel').slideToggle(300);
 });
 $('.t-default').click(function() {
-	$('.style').attr('href', 'assets/t-default.css');
+	$('.style').attr('href', 't-default.css');
 });
 $('.t-code').click(function() {
-	$('.style').attr('href', 'assets/t-code.css');
+	$('.style').attr('href', 't-code.css');
 });
 $('.t-writer').click(function() {
-	$('.style').attr('href', 'assets/t-writer.css');
+	$('.style').attr('href', 't-writer.css');
 });
