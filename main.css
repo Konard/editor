@@ -1,0 +1,66 @@
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	display: block;
+}
+body {
+	margin: 0px auto;
+	max-width: 800px;
+}
+.editor {
+	width: 100%;
+	max-width: 65%;
+	float: left;
+	background: #eeeeee;
+}
+.sidebar {
+	line-height: 1.5;
+	padding: 2%;
+	font-family: "Open Sans", "Avenir Next", sans-serif;
+	width: 25%;
+	float: left;
+}
+.editor textarea {
+	border: none;
+	width: 96%;
+	height: 95.5vh;
+	min-height: 500px;
+	resize: none;
+	padding: 2vh;
+}
+hr {
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+.panel {
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.sidebar p {
+	margin: 5px 0px;
+	font-size: 0.9em;
+}
+.theme {
+	margin-top: 2px;
+	min-width: 22px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-right: 1px;
+	padding: 6px;
+	font-weight: normal;
+	font-size: 13px;
+}
+.t-default {
+	background: gray;
+	color: white;
+}
+.t-code {
+	background: #333;
+	color: lime;
+}
+.t-writer {
+	background: #fafafa;
+	color: #663300;
+}
